@@ -70,4 +70,12 @@
     width:100%;
     background-color: white;
     box-shadow: 20px;
+    
+       
+}
+
+.Top-Nav{
+
+    display: block;
+    padding: 10px 100px;
 }
