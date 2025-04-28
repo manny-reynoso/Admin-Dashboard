@@ -93,24 +93,27 @@ nav li {
     padding-left: 50px;
 }
 
-nav input{
-    float: left;
-}
+
 
 .Second-Nav{
     
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 50px 50px;
     
 }
 
 .headers{
-    display: block;
-    padding: 20px ;
-    float: left;
+    display: flex;
+    align-items:center;
+    
+
+}
+
+.headers-image{
+    padding-right:  5px ;
 }
 
 .headers-button{
