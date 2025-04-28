@@ -69,7 +69,7 @@
     height:200px;
     width:100%;
     background-color: white;
-    box-shadow: 20px;
+    box-shadow: 100ox;
     
        
 }
@@ -98,8 +98,30 @@ nav input{
 }
 
 .Second-Nav{
-    padding: 100px 300px;
-    display: flex;
-    margin
     
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px;
+    
+}
+
+.headers{
+    display: block;
+    padding: 20px ;
+    float: left;
+}
+
+.headers-button{
+    float: right;
+    padding-left: 100px;
+}
+
+.headers-button button{
+    padding: 5px 10px;
+    border-radius: 100px;
+    background-color: rgb(0, 155, 104);
+    color: white;
+    border-style: none;
 }
