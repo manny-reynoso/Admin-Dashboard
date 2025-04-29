@@ -154,7 +154,7 @@ nav li {
 }
 
 .right-grid{
-display: flex;
+
 padding:10px;
 
 
@@ -164,12 +164,16 @@ padding:10px;
 
 .left-grid{
     padding: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  grid-auto-rows: 50px;
+  gap:20px
+  
 
 }
 
 .grid-item{
-    outline-color: red;
-    outline-width: 3px;
-    outline-style: auto;
+    border: 1px solid red;
     padding: 10px;
 }
