@@ -149,22 +149,27 @@ nav li {
 
 .grid-container{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    
 }
 
 .right-grid{
-display: grid;
-padding: 20px;
+display: flex;
+padding:10px;
+
+
     
 
 }
 
 .left-grid{
+    padding: 20px;
 
 }
 
 .grid-item{
     outline-color: red;
-    outline-style: double;
-    padding: 20px;
+    outline-width: 3px;
+    outline-style: auto;
+    padding: 10px;
 }
