@@ -148,13 +148,23 @@ nav li {
 }
 
 .grid-container{
-    
+    display: flex;
+    align-items: center;
 }
 
 .right-grid{
+display: grid;
+padding: 20px;
+    
 
 }
 
 .left-grid{
 
+}
+
+.grid-item{
+    outline-color: red;
+    outline-style: double;
+    padding: 20px;
 }
